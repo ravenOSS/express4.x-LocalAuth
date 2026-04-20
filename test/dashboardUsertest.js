@@ -2,7 +2,7 @@ var
   should = require('should'),
   request = require('supertest'),
   app = require('../app'),
-  faker = require('faker');
+  faker = require('@faker-js/faker').faker;
 
 describe('Dashboard', function () {
   it('should reject an unauthenticated user', function (done) {
