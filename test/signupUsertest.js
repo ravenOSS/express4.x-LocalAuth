@@ -3,7 +3,7 @@ var
   request = require('supertest'),
   app = require('../app'),
   User = require('../models/users'),
-  faker = require('faker');
+  faker = require('@faker-js/faker').faker;
 
 describe('Users', function () {
   before(function (done) {
